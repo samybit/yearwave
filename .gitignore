@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter and VS Code
+.ipynb_checkpoints
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and tokens
+.env
+token.txt
+
+# Data and CSVs
+*.xlsx
+*.xls
+*.ods
+*.json
+
+# Backup or temporary files
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Cache
+.cache/
+__cache__/
+*.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Git
+*.orig
+*.rej
+*.diff
+*.patch
+
+# Spotify token cache
+.cache
+token.txt
