@@ -9,7 +9,7 @@ It uses a Billboard chart dataset (CSV) and the **Spotipy** library to connect t
 ---
 
 ## Features
-- Loads Billboard chart data from a CSV file  
+- Loads Billboard chart data from a CSV file  (current is until 2025-10-25)
 - Lets you choose a chart week (e.g., `2022-01-01`)  
 - Searches each track on Spotify  
 - Automatically creates a **private playlist** with the matching songs
@@ -36,7 +36,6 @@ It uses a Billboard chart dataset (CSV) and the **Spotipy** library to connect t
    SPOTIPY_CLIENT_ID=your_client_id
    SPOTIPY_CLIENT_SECRET=your_client_secret
    SPOTIPY_REDIRECT_URI=http://127.0.0.1:8888/callback
-   SPOTIFY_DISPLAY_NAME=your_spotify_username
    ```
 
 4. **Add the redirect URI** (`http://127.0.0.1:8888/callback`) in your Spotify app settings.
@@ -71,8 +70,9 @@ It uses a Billboard chart dataset (CSV) and the **Spotipy** library to connect t
 
 ## Example Output
 ```
-Enter a chart week (YYYY-MM-DD): 2022-01-01
-Added 95 songs to the playlist for 2022-01-01.
+What year (or week) would you like to travel to?
+(YYYY-MM-DD or YYYY): 2001
+Added 100 songs to the playlist for 2001.
 ```
 
 ---
