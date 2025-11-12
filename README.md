@@ -1,5 +1,5 @@
 # YearWave
-# Billboard Hot 100 to Spotify Playlist
+## Billboard Hot 100 to Spotify Playlist
 
 A Python tool that turns Billboard Hot 100 charts into Spotify playlists.
 
