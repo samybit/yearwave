@@ -90,7 +90,7 @@ year = week_input[:4] # Get the year-only from the input
 for _, row in filtered.iterrows():
     song = row['title']
     artist = row['performer']
-    query = f"track:{song} artist:{artist} year:{year}"
+    query = f"{song} {artist}"
 
     result = sp.search(q=query, type="track", limit=1)
     tracks = result["tracks"]["items"]
